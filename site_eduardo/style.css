@@ -1,20 +1,22 @@
-* {
-<<<<<<< HEAD
+* { HEAD
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
+  color: #fff;
   font-family: Arial, sans-serif;
   font-size: 16px;
-  background-color: #6466e0;
-background-image: linear-gradient(90deg, #6466e0 0%, #030202 66%);
+  background-color: #8a8f8d;
+background-image: linear-gradient(90deg, #a1a1a1 0%, #030202 66%);
 
 }
 
 header {
-  background-color: #6466e0;
-  background-image: linear-gradient(90deg, #6466e0 0%, #030202 66%);
+  background-color: #757776;
+  background-image: linear-gradient(90deg, #7c7c7e 0%, #030202 66%);
+  display: flex;
+  align-items: center;
 
 
   padding: 20px;
@@ -26,6 +28,12 @@ header h1 {
   font-size: 30px;
   font-weight: 800;
   color: #fffb00;
+}
+
+header img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
 }
 
 nav ul {
@@ -66,8 +74,8 @@ main {
 .banner {
   display: flex;
   gap: 100px;
-  background-color: #6466e0;
-  background-image: linear-gradient(108deg, #6466e0 0%, #030202 66%);
+  background-color: #54a5f1;
+  background-image: linear-gradient(108deg, #54a5f1 0%, #03578f 66%);
 }
 
 .produto {
@@ -75,69 +83,3 @@ main {
   align-content: center;
 
 }
-=======
-    box-sizing: border-box;
-  }
-  
-  body {
-    color: #fff;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-  }
-  
-  header {
-    background-color: #fae900;
-    color: #ffffff;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-  }
-  header img {
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-  }
-  
-  header h1 {
-    margin: 0;
-    font-size: 24px;
-  }
-  
-  nav ul {
-    color: #eee;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  nav li {
-    color: #eee;
-    margin: 0 10px;
-  }
-  
-  nav a {
-    color: #ffffff;
-    text-decoration: none;
-  }
-  
-  main {
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 0 20px;
-  }
-  
-  .banner {
-    background-color: #ffe600;
-    color: #fff;
-    padding: 40px;
-    text-align: center;
-  }
-  
-  .banner h2 {
-    color: #eee;
-    margin: 0;
-    font-size: 36px;
-  }
->>>>>>> 83340e45853b3df966e0ecc7aabf6d22f315741d

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Conta - FreeMarket</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <h1>Escolha Forma de Ingresso</h1>
+    <p>Bem Vindo!</p>
+    <button id="botao-login">Entrar</button>
+    <button id="botao-sign">Cadastrar</button>
+
+    <script>
+        document.getElementById("botao-login").addEventListener("click", function(event) {
+            event.preventDefault(); // Impede que a página seja recarregada
+            window.location.href = "pagina_login.html"; // Redireciona o usuário para outra página
+        });
+    </script>
+    
+</body>
+</html>

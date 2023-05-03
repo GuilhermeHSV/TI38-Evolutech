@@ -1,17 +1,32 @@
-
-
-header {
-
-
-display: flex;
-align-items: center;
-background-color: aqua;
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
 
 }
 
+header {
+    
+display: flex;
+align-items: flex-start;
+justify-content: space-between ;
+background-color: aqua;
+width: 100%;
+height: 9000;
+}
+
 .nike {
+    
 width: 300px;
 height: 10;
 align-items: start;
 justify-content: left;
+}
+
+.ancora {
+    display: flex;
+    float: right;
+    justify-content: right;
+    align-items: end;
+    /* border: 1px solid black; */
 }
